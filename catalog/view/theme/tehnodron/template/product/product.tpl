@@ -8,18 +8,18 @@
   </ul>
 
   <div class="row">
-    <?php echo $column_left; ?>
+    <?php if (isset($column_left)) { echo $column_left; } ?>
 
-    <?php if ($column_left && $column_right) { ?>
+    <?php if (isset($column_left) && isset($column_right) && $column_left && $column_right) { ?>
     <?php $class = 'col-sm-6'; ?>
-    <?php } elseif ($column_left || $column_right) { ?>
+    <?php } elseif ((isset($column_left) && $column_left) || (isset($column_right) && $column_right)) { ?>
     <?php $class = 'col-sm-9'; ?>
     <?php } else { ?>
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
 
     <div id="content" class="<?php echo $class; ?>">
-      <?php echo $content_top; ?>
+      <?php if (isset($content_top)) { echo $content_top; } ?>
 
       <div class="product-info">
         <div class="row">
@@ -254,10 +254,10 @@
         </div>
       </div>
 
-      <?php echo $content_bottom; ?>
+      <?php if (isset($content_bottom)) { echo $content_bottom; } ?>
     </div>
 
-    <?php echo $column_right; ?>
+    <?php if (isset($column_right)) { echo $column_right; } ?>
   </div>
 </div>
 

@@ -18,6 +18,7 @@
 </div>
 
 <!-- Featured Products Section -->
+<?php if (isset($content_top) && $content_top) { ?>
 <div class="featured-section">
   <div class="container">
     <div class="row">
@@ -28,6 +29,7 @@
     <?php echo $content_top; ?>
   </div>
 </div>
+<?php } ?>
 
 <!-- Categories Section -->
 <div class="categories-section">
@@ -118,6 +120,8 @@
   </div>
 </div>
 
+<?php if (isset($content_bottom) && $content_bottom) { ?>
 <?php echo $content_bottom; ?>
+<?php } ?>
 
 <?php echo $footer; ?>
