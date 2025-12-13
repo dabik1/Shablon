@@ -1,0 +1,40 @@
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Compiled files
+*.min.css
+*.min.js
+
+# Node modules (if using build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Image cache
+catalog/view/theme/tehnodron/image/cache/
+
+# Custom files
+custom.css
+custom.js
