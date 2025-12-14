@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+  <name>TechnoDron</name>
+  <version>1.0.0</version>
+  <author>TechnoDron Team</author>
+  <website>https://tehnodron.in.ua</website>
+  <email>support@tehnodron.in.ua</email>
+  <description>Професійний шаблон для інтернет-магазину систем безпеки та відеоспостереження</description>
+
+  <compatibility>
+    <opencart>2.3.0.2.4</opencart>
+    <ocstore>2.3.0.2.4</ocstore>
+  </compatibility>
+
+  <license>MIT</license>
+
+  <features>
+    <feature>Адаптивний дизайн</feature>
+    <feature>Українська локалізація</feature>
+    <feature>Bootstrap 3</feature>
+    <feature>Font Awesome іконки</feature>
+    <feature>SEO оптимізація</feature>
+    <feature>Open Graph теги</feature>
+  </features>
+
+  <settings>
+    <colors>
+      <primary>#e74c3c</primary>
+      <secondary>#2c3e50</secondary>
+      <success>#27ae60</success>
+      <info>#3498db</info>
+      <warning>#f39c12</warning>
+      <danger>#e74c3c</danger>
+    </colors>
+
+    <fonts>
+      <main>Roboto, Arial, sans-serif</main>
+      <headings>Roboto, Arial, sans-serif</headings>
+    </fonts>
+
+    <layout>
+      <container_width>1200px</container_width>
+      <header_height>auto</header_height>
+      <footer_height>auto</footer_height>
+    </layout>
+  </settings>
+
+  <modules>
+    <module>featured</module>
+    <module>latest</module>
+    <module>special</module>
+    <module>category</module>
+    <module>slideshow</module>
+    <module>account</module>
+    <module>cart</module>
+  </modules>
+
+  <changelog>
+    <version number="1.0.0" date="2024-12-13">
+      <change>Початковий реліз</change>
+      <change>Додано всі основні шаблони</change>
+      <change>Додано українську локалізацію</change>
+      <change>Додано адаптивний дизайн</change>
+    </version>
+  </changelog>
+</theme>

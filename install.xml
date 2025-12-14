@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>TechnoDron Theme</name>
+    <code>tehnodron_theme</code>
+    <version>1.0.0</version>
+    <author>TechnoDron Team</author>
+    <link>https://tehnodron.in.ua</link>
+
+    <file path="admin/controller/setting/store.php">
+        <operation>
+            <search><![CDATA[$data['themes'] = array();]]></search>
+            <add position="after"><![CDATA[
+                $data['themes'][] = array(
+                    'text'  => 'Tehnodron',
+                    'value' => 'tehnodron'
+                );
+            ]]></add>
+        </operation>
+    </file>
+</modification>
