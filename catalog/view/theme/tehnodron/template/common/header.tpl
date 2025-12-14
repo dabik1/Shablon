@@ -136,7 +136,7 @@
         </button>
       </div>
       <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <?php echo $menu; ?>
+        <?php if (isset($menu)) { echo $menu; } ?>
       </div>
     </div>
   </nav>
